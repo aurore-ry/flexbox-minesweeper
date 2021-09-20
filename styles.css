@@ -8,6 +8,9 @@ body {
   background-color: rgb(68, 96, 107);
 }
 
+.global-container {
+  height: fit-content;
+}
 .global-container,
 .case {
   display: flex;
@@ -20,7 +23,6 @@ body {
 
 .case {
   width: 424px;
-  height: 424px;
   padding: 8px 4px 8px 4px;
   display: flex;
   background-color: #cbcbcb;
